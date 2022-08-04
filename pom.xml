@@ -3,8 +3,16 @@
   <groupId>nz.ac.massey.cs.251</groupId>
   <artifactId>Maven_Tutorial</artifactId>
   <version>1.0.0</version>
-  <properties>
+    <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
   </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
